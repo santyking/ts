@@ -3,3 +3,32 @@ let getSum = (num1:number,num2:number):number =>{
 }
 let sum = getSum(4,2);
 console.log(sum);
+
+const car1  = {
+    type: "sports",
+    company : "Lamborghini",
+    model : "Aventador"
+}
+console.log("Congratulations! you have a "+car1.company+" "+car1.model);
+
+enum akasaLocations {
+    Mumbai = 'Mumbai',
+    Pune = 'Pune',
+    Hyderabad = 'Hyderabad',
+    Bengaluru = 'Bengaluru',
+    Delhi = 'Delhi'
+}
+let currentLocation = akasaLocations.Mumbai;
+console.log("Hey!, Welcome to "+currentLocation);
+
+interface classDetails{
+    id : number;
+    name : string;
+}
+
+let student1:classDetails = {
+    name:"Santosh",
+    id:12
+}
+console.log(student1.name);
+console.log(student1.id);
