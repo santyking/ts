@@ -32,3 +32,8 @@ let student1:classDetails = {
 }
 console.log(student1.name);
 console.log(student1.id);
+
+let salary:number = 646546.446546;
+console.log(salary.toFixed(1));
+console.log(salary.toFixed(2));
+console.log(salary.toPrecision(1));
