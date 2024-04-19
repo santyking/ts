@@ -37,3 +37,17 @@ let salary:number = 646546.446546;
 console.log(salary.toFixed(1));
 console.log(salary.toFixed(2));
 console.log(salary.toPrecision(1));
+
+let students:string[] = ["Santosh","Akshay","Niranjan"];
+console.log("Students: "+students);
+console.log("Students: "+students[0]);
+
+for (let index = 0; index < students.length; index++) {
+    const element = students[index];
+    console.log(element);
+}
+students.push("Dattatray");
+console.log(students);
+
+students.pop();
+console.log(students);
