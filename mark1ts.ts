@@ -67,3 +67,22 @@ let multiplier = (num1:number,num2:number,num3:number = 4):number => {
     return num1*num2*num3;
 }
 console.log(multiplier(5,1));
+
+let myDept:string = "IT";
+switch (myDept) {
+    case "IT":
+        console.log("You belong to IT Department");
+        break;
+
+    case "HR":
+        console.log("You belong to HR Department");
+        break;
+
+    case "Finance":
+        console.log("You belong to Finance Department");
+        break;
+
+    default:
+        console.log("Invalid Department Selected");
+        break;
+}
