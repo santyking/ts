@@ -62,3 +62,8 @@ let Adder = (num1:number,num2:number,num3?:number):number =>{
 }
 
 console.log(Adder(5,4));
+
+let multiplier = (num1:number,num2:number,num3:number = 4):number => {
+    return num1*num2*num3;
+}
+console.log(multiplier(5,1));
