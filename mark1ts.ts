@@ -86,3 +86,13 @@ switch (myDept) {
         console.log("Invalid Department Selected");
         break;
 }
+
+interface Area {
+    length:number,
+    breadth:number
+}
+
+const a1:Area = {
+    length:10,
+    breadth:10
+}
