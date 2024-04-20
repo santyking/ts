@@ -96,3 +96,18 @@ const a1:Area = {
     length:10,
     breadth:10
 }
+
+class studentDetails {
+    private firstName:string;
+    private lastName:string;
+    public constructor(fName:string,lName:string) {
+        this.firstName = fName;
+        this.lastName = lName;
+    }
+    public getFullName():string{
+        return this.firstName+" "+this.lastName;
+    }
+}
+let student2 = new studentDetails("Santosh","Mhatre");
+console.log(student2.getFullName());
+ 
